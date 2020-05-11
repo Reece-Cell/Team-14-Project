@@ -1,10 +1,2 @@
 # Team-14-Project
-gpt based program that will generate an essay based on a user input topic and focus
-
-There are two prerequistes to getting this project running.
-First, you need to have tensorflow installed, I used version 1.15
-Secondly,  you need to download a gpt model from open-ai
-The project uses the 355M version of the model but you can just as easily use any of the versions and simply change the model version in the code
-You can easily download any of the models from here https://github.com/nshepperd/gpt-2
-Once you generate the essay, it will show up in the project folder under the name "my_essay.txt"
-There was a slight effort made in terms of formatting so copy the essay and paste it into a word processor such as Google Docs or Microsoft Word to see the formatting
+The Essay Generator is a piece of software designed to replicate an essay on a given topic and/or theme provided by the user. The essay emulates this theme via a corresponding wikipedia article to said topic, provided such an article exists. When the input is checked for on wikipedia, the user is then prompted with a sub topic to have the essay focus on. Shortly after a period of generation for the code, the program will produce an essay on the topic, prompting the user to save it to their harddrive. 
